@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from django.core.management.utils import get_random_secret_key
 from pathlib import Path
+from django.apps import apps
 import os
 import sys
 import dj_database_url
